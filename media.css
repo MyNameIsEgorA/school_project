@@ -1,0 +1,18 @@
+@media (max-width: 600px) {
+    .main-container {
+        margin: 30px 30px;
+    }
+
+    .question {
+        margin: 0 auto;
+    }
+
+    .answers-container {
+        margin-top: 34px;
+        width: 100%;
+    }
+
+    .answer-btn {
+        width: 100%;
+    }
+}

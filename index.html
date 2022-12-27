@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>ТЕСТИРОВАНИЕ</title>
+    <link rel="stylesheet" href="./media.css">
+</head>
+<body>
+    <div class="main-container" id="container">
+        <div class="question-container">
+            <div class="question" id="question">Считаю для себя важным добиваться, чтобы коллектив моего класса работал лучше.</div>
+        </div>
+        <div class="answers-container">
+            <div class="answers-list">
+                <li class="answer"><button name="answer-button" class="answer-btn" value="0">"0" - всегда нет или никогда</id=button></li>
+                <li class="answer"><button name="answer-button" class="answer-btn" value="1">"1" - очень редко, чаще случайно</=></li>
+                <li class="answer"><button name="answer-button" class="answer-btn" value="2">"2" - чаще нет, чем да, иногда вспоминаю</=></li>
+                <li class="answer"><button name="answer-button" class="answer-btn" value="3">"3" - чаще да, чем нет, иногда забываю</=></li>
+                <li class="answer"><button name="answer-button" class="answer-btn" value="4">"4" - всегда да, постоянно</=></li>
+            </div>
+        </div>
+        <div class="description">
+            Выберите ответ, который считаете верным именно для себя и нажмите на кнопку "Продолжить"
+        </div>
+        <button class="continue-button" id="continue-button">Продолжить</button>
+    </div>
+    <div class="modal-window" id="modal">
+        <h2 class="modal-heading congrats">Поздравляю, вы завершили теста</h2>
+        <div class="modal-description result" id="points-amount"">321</div>
+    </div>
+    <script src="./render.js"></script>
+</body>
+</html>
